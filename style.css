@@ -1,0 +1,491 @@
+body {
+    background-image:url();
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-color:#F5F5DC;
+ 
+html
+{
+    scroll-behavior:smooth;
+} 
+  
+  
+}
+
+*
+{
+    margin:0px;
+    padding:0px;
+}
+
+
+h1
+{
+ text-align:center;
+ color:purple; 
+ margin-left:1300px;
+ display:block;
+ font-size:60px;  
+}
+
+
+
+.H
+{
+    background-color:#BA55D3;
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    
+    
+    
+}
+
+.align
+{
+    text-align:left;
+}
+.align1
+{
+    text-align:center;
+}
+
+
+a
+{
+    text-decoration:none;
+    color:black;
+}
+
+  #arrowbox
+    {
+     width: 300px;
+     height: 44px;
+     background-color:skyblue;
+     margin-left:90px;
+     margin-top:2px;
+     position: relative;
+     border-style:solid;
+     color:white;
+     text-align:center;
+     font-size:35px;
+     
+    }
+
+    #arrowbox:after {
+        left: 100%;
+         top: 20%;
+
+         content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        border-style:solid;
+        border-color: rgba(0, 128, 0, 0);
+        border-left-color: black;
+        border-width: 40px;
+        margin-top: -25px;
+
+    }
+
+#arrowbox1
+    {
+     width: 300px;
+     height: 44px;
+     background-color:red;
+     margin-left:90px;
+     margin-top:2px;
+     position: relative;
+     border-style:solid;
+     color:white;
+     text-align:center;
+     font-size:35px;
+     
+    }
+
+    #arrowbox1:after {
+        left: 100%;
+         top: 20%;
+
+         content: " ";
+        height: 0;
+        width: 0;
+        position: absolute;
+        border-style:solid;
+        border-color: rgba(0, 128, 0, 0);
+        border-left-color: black;
+        border-width: 40px;
+        margin-top: -25px;
+
+    }
+
+.blue
+{
+    background:radial-gradient( #00BFFF 30%, darkblue);
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:red;
+    
+}
+
+.lightgreen
+{
+    background:radial-gradient( #39FF14 30%, green );
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    border-color:black;
+    bor
+    
+}
+
+.purple
+{
+    background:radial-gradient( #1c39bb 30%, #4B0150 );
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+}
+
+.orange
+{
+    background:radial-gradient( #FFD580 , #FF4500 90% );
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+}
+
+.pink
+{
+    background:radial-gradient(  #FFB6C1
+    50% ,   #C71585);
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+}
+
+.down
+{
+    background-color:#434343;
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:white;
+}
+
+.yellow
+{
+    background:radial-gradient( #FFFF00 30%, #8B8000 );
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:red;
+}
+
+/*.yellow1
+{
+    background-color:#39FF14;
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+}*/
+
+.gradient
+{
+    background: #f7ff00;  /* fallback for old browsers */
+background:radial-gradient(  #f7ff00  ,  #db36a4 60% );  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to left, #f7ff00, #db36a4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+}
+
+.gradient1
+{
+    background:radial-gradient( #3CB371 ,  #DB36A4 60% );
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+}
+
+.gradient2
+{
+    background:radial-gradient( #00BFFF , #FF8C00 60%);
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+}
+
+.purple1
+{
+    background:radial-gradient( #DB36A4 30%, #4B0150);
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+}
+
+.darkgreen
+{
+    background:radial-gradient( #3CB371 30%, #006400);
+    width:180px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:red;
+}
+
+.upper
+{
+    background-color:black;
+    width:180px;
+    height:45px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:white;
+    top:-50px;
+    vertical-align:bottom;
+    
+    
+}
+
+.blank
+{
+    width:100px;
+    height:33px;
+}
+
+.lower
+{
+    background-color:black;
+    width:45px;
+    height:160px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:white;
+    vertical-align:middle ;
+
+    
+    
+}
+
+.lightgreen1
+{
+    background:radial-gradient( #39FF14 30%, green );
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    border-color:black;
+    margin-left:360px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+.text1
+{
+    margin-left:360px;
+    text-align:center;
+    
+}
+
+.purple2
+{
+    background:radial-gradient( #1c39bb 30%, #4B0150 );
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    border-color:black;
+    margin-left:240px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+
+.darkgreen1
+
+{
+    background:radial-gradient( #3CB371 30%, #006400);
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    border-color:black;
+    margin-left:240px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+.blue1
+{
+    background:radial-gradient( #00BFFF 30%, darkblue);
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    border-color:black;
+    margin-left:240px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+.yellow1
+{
+    background:radial-gradient( #FFFF00 30%, #8B8000 );
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    border-color:black;
+    margin-left:360px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+.nothing
+{
+    background-color:white;
+    width:170px;
+    height:200px;
+}
+
+.orange1
+{
+    background:radial-gradient( #FFD580 , #FF4500 90% );    
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    border-color:black;
+    margin-left:240px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+.pink1
+{
+    background:radial-gradient(  #FFB6C1
+    50% ,   #C71585);
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    border-color:black;
+    margin-left:240px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+.purple3
+{
+    background:radial-gradient( #DB36A4 30%, #4B0150);
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:black;
+    border-color:black;
+    margin-left:240px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+.gradient3
+{
+    background:radial-gradient(  #f7ff00  ,  #db36a4 60% ); 
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:white;
+    border-color:black;
+    margin-left:560px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+.gradient4
+{
+    background:radial-gradient( #3CB371 ,  #DB36A4 60% );
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:white;
+    border-color:black;
+    margin-left:240px;
+    top:-130px;
+    text-bottom:-1300px;
+}
+
+.gradient5
+{
+    background:radial-gradient( #00BFFF , #FF8C00 60%);
+    width:170px;
+    height:90px;
+    text-align:center;
+    font-size:30px;
+    font-weight:400;
+    color:white;
+    border-color:black;
+    margin-left:240px;
+    top:-130px;
+    text-bottom:-1300px;
+}
